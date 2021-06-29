@@ -261,10 +261,31 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+#services .card-body{
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: -12px;
+  text-align: center;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.508);
+  border-radius: 15px;
+}
+
+#services .card-title{
+  color: #000000;
+}
+ 
+
+
+
+
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
 }
+
+
 
 #cortinas .portfolio-item {
   right: 0;
@@ -755,6 +776,20 @@ header.masthead .intro-text .intro-heading {
 .team-member p {
   margin-top: 0;
 }
+ #team .social-buttons li a{
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #ff4500;
+
+ }
+ 
 
 section#contact {
   width: 100%;
@@ -823,11 +858,11 @@ section#contact :-ms-input-placeholder {
 }
 
 .footer {
-  background: #c73002;
+  background: #ff4500;
   width: 100%;
   padding: 15px 0;
   text-align: center;
-  text-decoration: #963305;
+  text-decoration: #212529;
   color: #ffffff;
  font-family: fantasy;
   font-size: 100%;
@@ -868,7 +903,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #973001;
+  background-color: #55585b;
 }
 
 ul.social-buttons li a:active,
